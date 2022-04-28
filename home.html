@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My personal website </title>
+  <link rel="stylesheet" href="style/style.css">
+  <!--Box Icons-->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+  <!--Navbar-->
+  <nav>
+    <a href="#" class="Logo">Sultanbek</a>
+    <div class="toggle" onclick="toggleMenu();"></div>
+
+    <!--Menu-->
+    <ul class="menu">
+      <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+      <li><a href="about.html" onclick="toggleMenu();">About</a></li>
+      <li><a href="services.html"onclick="toggleMenu();">Services</a></li>
+      <li><a href="work.html"onclick="toggleMenu();">Work</a></li>
+      <li><a href="contact.html"onclick="toggleMenu();">Contact</a></li>
+    </ul>
+  </nav>
+<!--Main section and Image-->
+<section id="home">
+  <div class="home-text">
+   <h1> Hey, I am <br><span>Sultanbek</span><br>Graphic Designer</h1>
+     <!--Button-->
+  <a href="#">Contact me</a>
+  </div>
+
+  <div class="home-img">
+    <img src="img/green.png" alt="" class="pic">
+  </div>
+
+   <!--Social-->
+  <div class="social">
+   <a href="#"><i class='bx bxl-meta'></a></i> 
+   <a href="#"><i class='bx bxl-twitter'></a></i> 
+   <a href="#"><i class='bx bxl-github'></a></i> 
+  </div>
+</section>
+  <!--Copyright-->
+  <div class="copyright">
+  <p>&#169; BS All Rights reserved</p>
+  </div>
+
+  <!--Scroll Animation-->
+ <script src="https://unpkg.com/scrollreveal"></script>
+
+ <!--link to JS-->
+ <script src="js/main.js"></script>
+
+</body>
+</html>

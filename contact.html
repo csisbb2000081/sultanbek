@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My personal website </title>
+  <link rel="stylesheet" href="style/style.css">
+  <!--Box Icons-->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+  <!--Navbar-->
+  <nav>
+    <a href="#" class="Logo">Sultanbek</a>
+    <div class="toggle" onclick="toggleMenu();"></div>
+
+    <!--Menu-->
+    <ul class="menu">
+      <li><a href="home.html" onclick="toggleMenu();">Home</a></li>
+      <li><a href="about.html" onclick="toggleMenu();">About</a></li>
+      <li><a href="services.html"onclick="toggleMenu();">Services</a></li>
+      <li><a href="work.html"onclick="toggleMenu();">Work</a></li>
+      <li><a href="#contact"onclick="toggleMenu();">Contact</a></li>
+    </ul>
+  </nav>
+
+<!--Contact-->
+<section id="contact">
+  <div class="heading color">
+    <h2>Contact</h2>
+    <p>Leave a message we will try to reply in 24 hours.</p>
+  </div>
+  <div class="contact-content">
+    <div class="app">
+      <h1>Contact With Us <br>By our Apps</h1>
+      <a href="#"><i class='bx bxl-play-store'></i></a>
+      <a href="#"><i class='bx bxl-apple'></i></a>
+    </div>
+    <div class="contact-form">
+      <form action="">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Your E-mail">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message Here..."></textarea>
+        <input type="button" value="Send" class = "contact-button">
+      </form>
+    </div>
+  </div>
+</section>
+
+  <!--Copyright-->
+ <div class="copyright">
+  <p>&#169; BS All Rights reserved(I mean they probably should)</p>
+ </div>
+
+  <!--Scroll Animation-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--link to JS-->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
